@@ -21,4 +21,4 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn build
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
